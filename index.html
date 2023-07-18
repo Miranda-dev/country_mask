@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <span class="flag-icon-wrapper flag-icon"></span>
+        <select name="" id="" class="country-select"></select>
+        <input type="text" class="phone-input">
+    </form>
+    <form action="">
+        <span class="flag-icon-wrapper flag-icon"></span>
+        <select name="" id="" class="country-select"></select>
+        <input type="text" class="phone-input">
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script src="phoneNumberFormatter.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.phone-input').phoneNumberFormatter();
+        });
+
+    </script>
+</body>
+</html>
